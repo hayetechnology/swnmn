@@ -4,18 +4,14 @@ import {
   HomeWrapper,
   HomeImage,
   HombeBg,
-  HomeTitle,
 } from './HomeElements';
-import ChildrenImage from '../../images/HomeChildren.png';
+import HomeSomaliWomenNetworkLogo from '../../images/HomeSomaliWomenNetworkLogo.png';
 
   function HomeSection() {
     return (
     <HomeContainer id='home'>
-    <HomeTitle>
-          SOMALI WOMEN NETWORK
-    </HomeTitle>
       <HombeBg>
-        <HomeImage src={ChildrenImage}>
+        <HomeImage src={HomeSomaliWomenNetworkLogo}>
         </HomeImage>
       </HombeBg>
       <HomeWrapper>

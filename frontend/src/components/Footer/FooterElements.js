@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {blue, lightblue, brown} from '../../components/colors';
+import {torquise, lighttorquise, purple} from '../../components/colors';
 
 export const FooterContainer = styled.footer`
   display: flex;
@@ -7,7 +7,7 @@ export const FooterContainer = styled.footer`
   align-items: center;
   height: auto;
   width: 100%;
-  background-color: ${lightblue};
+  background-color: ${lighttorquise};
   //light-blue
 `;
 
@@ -109,7 +109,7 @@ export const FooterBottom2 = styled.div`
 
 export const FooterTitle = styled.h6`
   font-family: 'Assistant', sans-serif;
-  color: ${brown};
+  color: ${purple};
   width: 180px;
   font-size: 14px;
   font-weight:800;
@@ -120,7 +120,7 @@ export const FooterTitle = styled.h6`
 
 export const FooterPara = styled.p`
   font-family: 'Assistant', sans-serif;
-  color: ${blue};
+  color: ${torquise};
   width: 180px;
   font-size: 14px;
   font-weight: 560;
@@ -131,7 +131,7 @@ export const FooterPara = styled.p`
 
 export const FooterPara2 = styled.p`
   font-family: 'Assistant', sans-serif;
-  color: ${blue};
+  color: ${torquise};
   width: 180px;
   font-size: 14px;
   font-weight: 560;

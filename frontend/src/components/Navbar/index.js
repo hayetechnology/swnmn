@@ -1,13 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import NavSWNMNLogo from '../../images/NavSWNMNLogo.png';
+import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
+import NavSWNMNLogo from '../../images/NavSWNMNLogo.png';
 import {
+  MobileIcon,
   Nav,
   NavbarContainer,
+  NavItem,
+  NavLinks,
   NavLogo,
-  NavIcon
+  NavMenu,
+  NavBtn,
+  NavIcon,
 } from './NavbarElements';
+
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -36,6 +43,42 @@ const Navbar = ({ toggle }) => {
             <NavLogo onClick={toggleHome} to='/'>
               <NavIcon src={NavSWNMNLogo}/>
             </NavLogo>
+            <MobileIcon onClick={toggle}>
+              <FaBars />
+            </MobileIcon>
+            <NavMenu>
+              <NavItem>
+                <NavLinks
+                  to='about'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact='true'
+                  offset={-80}
+                >
+                  About Us
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to='programs'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact='true'
+                  offset={-80}
+                >
+                  Programs
+                </NavLinks>
+              </NavItem>
+              <NavItem >
+                <NavLinks>
+                  <NavBtn onClick={toggleHome} to='/contact'>
+                    Contact Us 
+                  </NavBtn>
+                </NavLinks>
+              </NavItem>
+            </NavMenu>
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

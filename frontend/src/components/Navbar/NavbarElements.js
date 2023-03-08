@@ -1,9 +1,10 @@
 import { Link as LinkR } from 'react-router-dom';
-import {lightblue} from '../../components/colors';
+import { Link as LinkS } from 'react-scroll';
+import {lighttorquise, purple, black} from '../../components/colors';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? '00FFFFFF' : lightblue)};
+  background: ${({ scrollNav }) => (scrollNav ? '00FFFFFF' : lighttorquise)};
   height: 50px;
   margin-top: -50px;
   display: flex;
@@ -24,14 +25,14 @@ export const NavbarContainer = styled.div`
   height: 50px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
-  max-width: 1100px;
+  padding: 0px 100px 0px 0px;
+  max-width: 1460px;
   //background-color:#800000 ;
   //maroon
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: #fff;
+  color: ${purple};
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -51,4 +52,60 @@ export const NavIcon = styled.img`
   height: 50px;
   //background-color: #FFC0CB;
   //pink
+`;
+
+export const MobileIcon = styled.div`
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+`;
+
+export const NavMenu = styled.ul`
+  display: flex;
+  font-size: 17px;
+  font-weight: 560;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: -22px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const NavItem = styled.li`
+  height: 80px;
+`;
+
+export const NavLinks = styled(LinkS)`
+  font-family: 'Assistan', 'sans-serif';
+  color: ${black};
+  display: flex;
+  font-size: 17px;
+  font-weight: 560;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  &.active {
+    border-bottom: 3px solid #bf0101;
+  }
+`;
+
+export const NavBtn = styled(LinkR)`
+  font-family: 'Assistan', 'sans-serif';
+  color: ${black};
+  justify-self: flex-start;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 `;

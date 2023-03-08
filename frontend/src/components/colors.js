@@ -1,6 +1,7 @@
-export const blue = `#004059`;
-export const lightblue = `#d2f2fe`;
-export const gray = '#fdffe7';
-export const lightbrown = `#fbf2ee`;
-export const brown = `#311e1e`;
+export const torquise = `#005a5d`;
+export const lighttorquise = `#e1fff9`;
+export const gray = `#e7e8ed`;
+export const black =`#000000`
+export const lightpurple = `#f8ecff`;
+export const purple = `#5f0057`;
 

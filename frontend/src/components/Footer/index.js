@@ -46,10 +46,10 @@ const Footer = () => {
           </FooterTop>
           <FooterBottom>
               <FooterPara>
-                15400 S Robert Trail
+                2940 36th Ave S
               </FooterPara>
               <FooterPara>
-                Rosemount Minnesota 55068
+                Minneapolis MN 55406
               </FooterPara>
           </FooterBottom>
         </FooterLeftIn>
@@ -75,7 +75,7 @@ const Footer = () => {
               </FooterTitle>
           </FooterTop>
           <FooterBottom2>
-            <FooterFacebookLink href='https://www.facebook.com/SouthMetroChildcareCenter/'>
+            <FooterFacebookLink href='https://www.facebook.com/SomaliWomenNetwork/'>
             <FaFacebookSquare margin-right='10px;'/>
             <FooterPara2>
               facebook

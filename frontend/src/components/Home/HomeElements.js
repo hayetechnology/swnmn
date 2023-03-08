@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {lightbrown, lightblue} from '../../components/colors';
+import {gray, lightpurple, lighttorquise} from '../../components/colors';
 
 export const HomeContainer = styled.div`
   display: flex;
@@ -7,7 +7,7 @@ export const HomeContainer = styled.div`
   align-items: center;
   padding: 0px;
   min-height: 854px;
-  background: ${lightbrown};
+  background: ${gray};
   position: relative;
   z-index: -6;
   :before {
@@ -17,7 +17,7 @@ export const HomeContainer = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(28, 34, 38, 0.5);
+    //background: rgba(28, 34, 38, 0.5);
     z-index: 0;
   }
 `;
@@ -40,7 +40,7 @@ export const HomeTitle = styled.h1`
   font-size: 40px;
   font-weight:800;
   padding-bottom: 600px;
-  color: #bae2ff;
+  color: ${lighttorquise};
   position: absolute;
   z-index: 1;
 `;
