@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
 import NavSWNMNLogo from '../../images/NavSWNMNLogo.png';
+import { darkpurple } from '../colors';
 import {
   MobileIcon,
   Nav,
@@ -37,7 +38,7 @@ const Navbar = ({ toggle }) => {
 
   return (
     <React.Fragment>
-      <IconContext.Provider value={{ color: '#fff' }}>
+      <IconContext.Provider value={{ color: darkpurple }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo onClick={toggleHome} to='/'>
@@ -49,14 +50,38 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
+                  to='home'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact='true'
+                  offset={-50}
+                >
+                  Home
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to='contact'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact='true'
+                  offset={-50}
+                >
+                  Contact
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
                   to='about'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
-                  offset={-80}
+                  offset={-50}
                 >
-                  About Us
+                  About
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -66,16 +91,9 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact='true'
-                  offset={-80}
+                  offset={-45}
                 >
                   Programs
-                </NavLinks>
-              </NavItem>
-              <NavItem >
-                <NavLinks>
-                  <NavBtn onClick={toggleHome} to='/contact'>
-                    Contact Us 
-                  </NavBtn>
                 </NavLinks>
               </NavItem>
             </NavMenu>

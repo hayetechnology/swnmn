@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import Home from '../components/Home';
+import Navbar from '../components/Navbar';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 function Home1() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,6 +15,7 @@ function Home1() {
     <React.Fragment>
       <Navbar toggle={toggle} />
       <Home/>
+      <Contact/>
       <Footer />
     </React.Fragment>
   );

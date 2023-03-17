@@ -1,15 +1,17 @@
 import styled from 'styled-components';
-import {gray, lightpurple, lighttorquise} from '../../components/colors';
+import {darktorquise, torquise, lighttorquise, triplelightblue, white, black, darkpurple, purple, lightpurple, doublelightpurple} from '../../components/colors';
 
 export const HomeContainer = styled.div`
+  height: 1000px;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px;
   min-height: 854px;
-  background: ${gray};
+  background: ${white};
   position: relative;
-  z-index: -6;
+  z-index: -5;
   :before {
     content: '';
     position: absolute;
@@ -23,9 +25,11 @@ export const HomeContainer = styled.div`
 `;
 
 export const HomeImage = styled.img`
-  height: 100%;
+  max-height: 400px;
   width: auto;
   z-index: -2;
+  //background-color: ${torquise};
+  //dirty-greendark-blueish
 `;
 
 export const HombeBg = styled.div`
@@ -33,6 +37,8 @@ export const HombeBg = styled.div`
   justify-content: center;
   align-items: center;
   z-index: -1;
+  //background-color: ${darktorquise};
+  //kale-green
 `;
 
 export const HomeTitle = styled.h1`
@@ -43,6 +49,8 @@ export const HomeTitle = styled.h1`
   color: ${lighttorquise};
   position: absolute;
   z-index: 1;
+  background-color: ${torquise};
+  //dirty-greendark-blueish
 `;
 
 export const HomeWrapper = styled.div`
@@ -51,7 +59,9 @@ export const HomeWrapper = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #fffaab;
-  z-index: -4;
+  z-index: -3;
+  background-color: ${darkpurple}
+  //dark-purple
 `;
 
 
