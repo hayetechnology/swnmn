@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {torquise, lighttorquise, purple} from '../../components/colors';
+import {darktorquise, torquise, lighttorquise, triplelightblue, white, black, darkpurple, purple, lightpurple, doublelightpurple} from '../../components/colors';
 
 export const FooterContainer = styled.footer`
   display: flex;
@@ -8,7 +8,8 @@ export const FooterContainer = styled.footer`
   height: auto;
   width: 100%;
   background-color: ${lighttorquise};
-  //light-blue
+  //background-color: ${lighttorquise};
+  //light-sky-blue
 `;
 
 export const FooterWrap = styled.div`
@@ -20,8 +21,8 @@ export const FooterWrap = styled.div`
   width: 830px;
   padding: 48px 0px 64px 0px;
   margin: 0px 0px 0px 0px;
-  //background-color: #7d0000;
-  //maroon
+  //background-color: ${lightpurple};
+  //light-isuroon-purple
 `;
 
 export const FooterLeft = styled.div`
@@ -31,8 +32,8 @@ export const FooterLeft = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //background-color: #abffb6;
-  //light-green
+  //background-color: ${darkpurple};
+  //dark-purple
 `;
 
 export const FooterLeftIn = styled.div`
@@ -42,10 +43,9 @@ export const FooterLeftIn = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //background-color: #abe4ff;
-  //light-blue
+  //background-color: ${torquise};
+  //dirty-green-dark-blueish
 `;
-
 
 
 export const FooterRightIn = styled.div`
@@ -56,8 +56,8 @@ export const FooterRightIn = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //background-color: #fcfcc5;
-  //light-yellow
+  //background-color: ${purple};
+  //isuroon-purple
 `;
 
 export const FooterRight = styled.div`
@@ -109,7 +109,7 @@ export const FooterBottom2 = styled.div`
 
 export const FooterTitle = styled.h6`
   font-family: 'Assistant', sans-serif;
-  color: ${purple};
+  color: ${darkpurple};
   width: 180px;
   font-size: 14px;
   font-weight:800;
@@ -120,7 +120,7 @@ export const FooterTitle = styled.h6`
 
 export const FooterPara = styled.p`
   font-family: 'Assistant', sans-serif;
-  color: ${torquise};
+  color: ${darktorquise};
   width: 180px;
   font-size: 14px;
   font-weight: 560;
@@ -131,7 +131,7 @@ export const FooterPara = styled.p`
 
 export const FooterPara2 = styled.p`
   font-family: 'Assistant', sans-serif;
-  color: ${torquise};
+  color: ${darktorquise};
   width: 180px;
   font-size: 14px;
   font-weight: 560;
