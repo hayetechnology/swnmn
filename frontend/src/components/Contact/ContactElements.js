@@ -9,8 +9,9 @@ export const ContactContainer = styled.div`
   padding: 0px;
   margin: 0px;
   background-color: ${purple};
-  //background-color: ${purple};
-  //isuroon-purple
+  //background-color: yellow;
+  //yellow
+  
   
   @media screen and (max-width: 880px) {
     height: 1760px;
@@ -21,8 +22,22 @@ export const ContactContainer = styled.div`
     padding: 0px;
     margin: 0px;
     background-color: ${white};
-    //background-color: ${purple};
-    //isuroon-purple
+    //background-color: yellow;
+    //yellow
+  }
+
+  @media screen and (max-width: 480px) {
+    max-height:1160px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px 120px 0px;
+    margin: 0px;
+    background-color: ${purple};
+    //background-color: yellow;
+    //yellow
   }
 `;
 
@@ -36,8 +51,9 @@ export const ContactWrapper = styled.div`
   padding: 0px 0px 20px 0px;
   margin: 0px;
   background-color: ${purple};
-  //background-color: ${torquise};
-  //dirty-greendark-blueish
+  //background-color: orange;
+  //orange
+  
   @media screen and (max-width: 880px) {
     height: auto;
     width: 100%;
@@ -49,6 +65,19 @@ export const ContactWrapper = styled.div`
     margin: 0px;
     //background-color: ${torquise};
     //dirty-green-dark-blueish
+  }
+
+  @media screen and (max-width: 480px) {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: ${lighttorquise};
+    //background-color: orange;
+    //orange */
   }
 `;
 
@@ -63,7 +92,7 @@ export const Form = styled.form`
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
   background-color: ${torquise};
-  //background-color: ${darkpurple}
+  //background-color: green;
   //dark-purple
   
   @media screen and (max-width: 480px) {
@@ -72,8 +101,9 @@ export const Form = styled.form`
     width:240%;
     padding: 16px 24px 40px 24px;
     margin:0px;
-    //background-color: ${darkpurple}
-    //dark-purple
+    background-color: ${torquise};
+    //background-color: green;
+    //green
   }
 `;
 

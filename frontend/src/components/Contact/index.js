@@ -38,7 +38,7 @@ function sendEmail(e) {
   return (
     <React.Fragment>
       <ContactContainer id='contact'>
-        <ContactWrapper>
+         <ContactWrapper>
           <Form className="contact-form" onSubmit={sendEmail}>
             <FormH1>Contact Form</FormH1>
             <Cont>
@@ -74,7 +74,7 @@ function sendEmail(e) {
             <FormButton type='submit'>Submit</FormButton>
             <ContMessage>{isClicked ?  <Text>Message Sent Successfully! Thank You</Text>: <Text></Text> }</ContMessage>
           </Form>
-        </ContactWrapper>
+        </ContactWrapper> 
       </ContactContainer>
     </React.Fragment>
   );

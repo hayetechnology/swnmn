@@ -16,12 +16,17 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 10;
   //background-color: ${darkpurple}
-  //dark-purple
+  //velvet
   
   @media screen and (max-width: 960px) {
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    min-width:100%;
     transition: 0.8s all ease;
     //background-color: ${darkpurple}
-    //dark-purple
+    //velvet
   }
 `;
 
@@ -34,8 +39,8 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0px 100px 0px 0px;
   max-width: 1460px;
-  //background-color:#800000 ;
-  //maroon
+  //background-color:${lighttorquise} ;
+  //light torquise
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -47,8 +52,8 @@ export const NavLogo = styled(LinkR)`
   align-items: center;
   margin-left: 24px;
   font-weight: 560;
-  //background-color: #90EE90;
-  //light green
+  //background-color: ${lighttorquise};
+  //light torquise
 `;
 
 export const NavIcon = styled.img`
@@ -56,7 +61,7 @@ export const NavIcon = styled.img`
   cursor: pointer;
   align-items: center;
   height: 50px;
-  //background-color: #FFC0CB;
+  //background-color: ${purple};
   //pink
 `;
 
@@ -67,11 +72,11 @@ export const MobileIcon = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 20%);
     font-size: 1.8rem;
     cursor: pointer;
     //background-color: ${lighttorquise};
-    //light-sky-blue
+    //light torquise
   }
 `;
 
