@@ -12,7 +12,6 @@ import {
   NavLinks,
   NavLogo,
   NavMenu,
-  NavBtn,
   NavIcon,
 } from './NavbarElements';
 
@@ -22,6 +21,7 @@ const Navbar = ({ toggle }) => {
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
+
       setScrollNav(true);
     } else {
       setScrollNav(false);
@@ -55,7 +55,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact='true'
-                  offset={-50}
+                  offset={100}
                 >
                   Home
                 </NavLinks>
@@ -67,7 +67,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact='true'
-                  offset={-50}
+                  offset={100}
                 >
                   Contact
                 </NavLinks>
@@ -76,10 +76,10 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to='about'
                   smooth={true}
-                  duration={500}
+                  duration={0}
                   spy={true}
                   exact='true'
-                  offset={-50}
+                  offset={0}
                 >
                   About
                 </NavLinks>
@@ -91,7 +91,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact='true'
-                  offset={-45}
+                  offset={0}
                 >
                   Programs
                 </NavLinks>
