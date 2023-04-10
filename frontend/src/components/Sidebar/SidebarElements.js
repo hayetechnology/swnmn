@@ -6,7 +6,7 @@ import { darkpurple, torquise,darktorquise, lighttorquise, lightpurple, purple }
 
 export const SidebarContainer = styled.aside`
   height: 100%;
-  width: 65%;
+  width: 100%;
   position: fixed;
   display: grid;
   align-items: start;
