@@ -5,8 +5,7 @@ import {
   CloseIcon,
   SidebarWrapper,
   SidebarMenu,
-  SidebarLink,
-  SidebarLink2 
+  SidebarLink
 } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -26,7 +25,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={0}
           >
-            Home
+            About
           </SidebarLink>
           <SidebarLink
             to='contact'
@@ -38,28 +37,6 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={0}
           >
             Contact
-          </SidebarLink>
-          <SidebarLink
-            to='about'
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={800}
-          >
-            About
-          </SidebarLink>
-          <SidebarLink
-            to='programs'
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={800}
-          >
-            Programs
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>  
