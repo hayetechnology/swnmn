@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
-import {darktorquise, torquise, lighttorquise, triplelightblue, white, black, darkpurple, purple, lightpurple, doublelightpurple} from '../../components/colors';
+import {darktorquise, lighttorquise, darkpurple, purple} from '../../components/colors';
 
 export const Nav = styled.nav`
   font-family: 'Assistant', sans-serif;

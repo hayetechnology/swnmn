@@ -37,7 +37,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={0}
           >
             Contact
-          </SidebarLink>
+         </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>  
     </SidebarContainer>

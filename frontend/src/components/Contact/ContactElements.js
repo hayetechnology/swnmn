@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {darktorquise, torquise, lighttorquise, triplelightblue, white, black, darkpurple, purple, lightpurple, doublelightpurple} from '../../components/colors';
+import {torquise, lighttorquise, white, darkpurple, purple} from '../../components/colors';
 
 export const ContactContainer = styled.div`
   height:970px;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {darktorquise, torquise, lighttorquise, triplelightblue, white, black, darkpurple, purple, lightpurple, doublelightpurple} from '../../components/colors';
+import {darktorquise, lighttorquise, darkpurple, purple} from '../../components/colors';
 
 export const FooterContainer = styled.footer`
   display: flex;
