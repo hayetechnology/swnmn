@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
-import { darkpurple, torquise,darktorquise, lighttorquise, lightpurple, purple } from '../colors';
+import { darkpurple, lighttorquise, lightpurple} from '../colors';
 
 export const SidebarContainer = styled.aside`
   height: 100%;
