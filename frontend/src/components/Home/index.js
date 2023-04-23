@@ -14,10 +14,12 @@ import {
   HomeImage,
   HombeBg,
   HomeMainTitle,
-  HomeLocationImageCont,
+  HomeLocationImageContLrg,
+  HomeLocationImageContSmall
 } from './HomeElements';
 import HomeSomaliWomenNetworkLogo from '../../images/HomeSomaliWomenNetworkLogo.png';
-import HomeLocationImage  from '../../images/HomeLocationImage.png';
+import HomeLocationImageLrg  from '../../images/HomeLocationImageLrg.png';
+import HomeLocationImageSmall  from '../../images/HomeLocationImageSmall.png';
 
   function HomeSection() {
     return (
@@ -67,8 +69,10 @@ import HomeLocationImage  from '../../images/HomeLocationImage.png';
           </ContRight>
         </ContMiddle>
         <ContBottom>
-          <HomeLocationImageCont src={HomeLocationImage}>
-          </HomeLocationImageCont>
+          <HomeLocationImageContLrg src={HomeLocationImageLrg}>
+          </HomeLocationImageContLrg>
+          <HomeLocationImageContSmall src={HomeLocationImageSmall}>
+          </HomeLocationImageContSmall>
         </ContBottom>
       </HomeWrapper>
     </HomeContainer>
