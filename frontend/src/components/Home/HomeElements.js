@@ -131,7 +131,6 @@ export const HomeMainTitle = styled.h4`
     //background-color:gold;
     //gold
   }
-
 `;
 
 export const ContMiddle = styled.div`
@@ -167,6 +166,7 @@ export const ContLeft = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0px 60px;
   align-items: center;
   //background-color: cadetblue;
   //bluegray
@@ -184,8 +184,8 @@ export const TitleL = styled.h6`
   line-height:3rem;
   color:${darktorquise};
   padding:0px;
-  //background-color: pink;
-  //pink
+  //background-color: darkturquoise;
+  //turquoise
   
   @media screen and (max-width: 468px) {
     font-size: 1.5rem;
@@ -226,6 +226,7 @@ export const ContRight = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0px 60px;
   align-items: center;
   //background-color: plum;
   //violet
@@ -240,7 +241,7 @@ export const ContRight = styled.div`
 
 export const TitleR = styled.h6`
   font-size: 1.5rem;
-  line-height:3rem;
+  line-height: 3rem;
   color:${darktorquise};
   padding: 0px;
   //background-color:lightblue;
@@ -264,7 +265,7 @@ export const ParaR = styled.p`
   color:${darktorquise};
   text-align: justify;
   //background-color: lightpink;
-  //light pink
+  //salmon pink
   
   @media screen and (max-width: 468px) {
     font-size: 14px;
@@ -276,7 +277,7 @@ export const ParaR = styled.p`
     color:${darktorquise};
     text-align: justify;
     //background-color:lightpink;
-    //light pink
+    //salmon pink
   }
 `;
 
@@ -292,7 +293,7 @@ export const ContBottom = styled.div`
     display: flex;
     justify-content: center;
     margin: 60px auto 0px auto;
-    background-color: lightgreen;
+    //background-color: lightgreen;
     //light green
   }
 `;
