@@ -54,7 +54,7 @@ import HomeLocationImageSmall  from '../../images/HomeLocationImageSmall.png';
           <ContRight>
             <TitleR>Our Programs</TitleR>
             <ParaR>
-              "Here in Somali Women Network (SWNMN) in Minneapolis, Minnesota, 
+              "Here at Somali Women Network of Minnesota, 
               we are dedicated to empowering and uplifting Somali women both in 
               our local community and beyond. Our Women's Empowerment and 
               Leadership Initiative (WELI) is one of our core programs, 
