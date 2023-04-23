@@ -47,6 +47,7 @@ export const HomeContainer = styled.div`
 `;
 
 export const HombeBg = styled.div`
+  max-height: 700px;
   display: flex;
   justify-content: center;
   align-items: start;
